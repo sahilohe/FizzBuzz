@@ -1,3 +1,4 @@
+package com.fsociety97;
 import java.util.Scanner;
 
 public class FizzBuzz {
@@ -18,5 +19,6 @@ public class FizzBuzz {
         } else {
             System.out.println("Number is not divisible by 3 or 5");
         }
+        input.close();
     }
 }
